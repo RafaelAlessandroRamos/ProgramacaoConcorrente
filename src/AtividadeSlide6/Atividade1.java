@@ -1,7 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Implemente o problema do produtor-consumidor que ha um buffer compartilhado
+ * entre threads. Ha uma unica thread produtora e uma unica consumidora. O 
+ * buffer e preenchido em tempos aleat´orios pela thread produtora. Assim que 
+ * for produzido algo, a thread consumidora deve ser comunicada para obter o valor.
  */
 package AtividadeSlide6;
 
