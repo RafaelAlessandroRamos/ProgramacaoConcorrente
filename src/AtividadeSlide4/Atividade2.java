@@ -15,10 +15,10 @@ import java.util.logging.Logger;
  */
 public class Atividade2 extends Thread{
     
+    
+    
     ListaCompartilhada_Atomic lista_Atomic;
     ListaCompartilhada_Block lista_Block;
-
-
     
     public Atividade2(ListaCompartilhada_Atomic l, ThreadGroup tg, String t1) {
         super(tg, t1);
@@ -250,9 +250,8 @@ class ListaCompartilhada_Method {
 
     public void numerosPrimos() {
         for (int i = 0; i < this.num_threads; i++) {
-            Atividade2 ex_02 = new Atividade2(this, this.threadGroup, "t" + i);
-
-            ex_02.start();
+            Atividade2 atividade2 = new Atividade2(this, this.threadGroup, "t" + i);
+            atividade2.start();
         }
     }
 

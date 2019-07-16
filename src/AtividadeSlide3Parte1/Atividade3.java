@@ -1,6 +1,6 @@
 /*
- * Implemente o exemplo de c´odigo que gera a condicao de disputa e tente gerar 
- * um teste para que ocorra um problema de seguran¸ca (safety).
+ * Implemente o exemplo de codigo que gera a condicao de disputa e tente gerar 
+ * um teste para que ocorra um problema de seguranca (safety).
  */
 package AtividadeSlide3Parte1;
 
