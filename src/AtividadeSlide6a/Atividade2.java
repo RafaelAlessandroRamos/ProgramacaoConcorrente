@@ -1,6 +1,6 @@
 /*
  * Escreva uma monitor Counter que possibilita um processo dormir ate o contador
- * alcancar um valor. A classe Counter permite duas opera¸c˜oes: increment() e 
+ * alcancar um valor. A classe Counter permite duas operacoes: increment() e 
  * sleepUntil(int x).
  */
 package AtividadeSlide6a;

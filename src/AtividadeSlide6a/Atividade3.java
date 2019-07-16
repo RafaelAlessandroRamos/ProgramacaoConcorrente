@@ -1,7 +1,7 @@
 /*
- * Escreva um monitor BoundedCounter que possui um valor m´ınimo e m´aximo. A 
- * classe possui dois m´etodos: increment() e decrement(). Ao alcancar os limites 
- * mınimo ou m´aximo, a thread que alcan¸cou deve ser bloqueada.
+ * Escreva um monitor BoundedCounter que possui um valor mınimo e maximo. A 
+ * classe possui dois metodos: increment() e decrement(). Ao alcancar os limites 
+ * mınimo ou maximo, a thread que alcan¸cou deve ser bloqueada.
  */
 package AtividadeSlide6a;
 
